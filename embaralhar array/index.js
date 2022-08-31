@@ -8,7 +8,7 @@ for(i = 0; i < 10; i+=1){
 
 }
 
-document.getElementById("lbl1").innerHTML = array;
+console.log(...array);
 
 while(i != 0){
 
@@ -21,6 +21,4 @@ while(i != 0){
 
 }
 
-document.getElementById("lbl2").innerHTML = array;
-
-console.log(array);
+console.log(...array);
